@@ -23,9 +23,9 @@ if(s[i]=='.'||s[i]=='?'||s[i]=='!')
 se++;
 }
 }
-w++;
+
 aria=4.71*((float)c/(float)w)+0.5*((float)w/(float)se)-21.43;
-int ari=((int)(round(aria)));
+int ari=((int)(ceil(aria)));
 string r;
 switch(ari){
      case 1:

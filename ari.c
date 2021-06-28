@@ -11,7 +11,7 @@ int se=0;
 float aria;
 for(int i=0; i<strlen(s);i++)
 {
-if(isalnum(s[i]))){
+if(isalnum(s[i])){
 c++;
 } 
 if(isspace(s[i])) {

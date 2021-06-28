@@ -1,3 +1,8 @@
+#include<stdio.h>
+#include<cs50.h>
+#include<math.h>
+#include<string.h>
+
 string ari(string s)
 {
 int c=0;

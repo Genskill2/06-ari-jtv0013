@@ -7,7 +7,7 @@ string ari(string s)
 {
 int c=0;
 int w=0;
-int s=0;
+int se=0;
 float aria;
 for(int i=0; i<strlen(s);i++)
 {
@@ -19,10 +19,10 @@ w++;
 }
 if(s[i]=='.'||s[i]=='?'||s[i]=='!')
 {
-s++;
+se++;
 }
 }
-aria=4.71*((float)c/(float)w)+0.5*((float)w/(float)s)-21.43;
+aria=4.71*((float)c/(float)w)+0.5*((float)w/(float)se)-21.43;
 int ari=((int)(round(aria)));
 string r;
 switch(ari);
